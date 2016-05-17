@@ -1,0 +1,28 @@
+{
+  "name": "Névjegyzék",
+  "description": "Névjegyzék",
+
+  "launch_path": "/index.html",
+
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png"
+  },
+
+  "developer": {
+    "name": "Fülöp József",
+    "url": "http://www.stud.u-szeged.hu/Fulop.Jozsef.1"
+  },
+
+	"type":"privileged",
+	
+	"permissions": {
+		"contacts": {
+		  "description": "Required for autocompletion in the share screen",
+		  "access": "readwrite"
+		}
+	},
+	
+
+  "default_locale": "hu"
+}
